@@ -32,5 +32,5 @@ theta_1 = 0
 # 학습률 0.1로 200번 경사 하강
 theta_0, theta_1 = gradient_descent(theta_0, theta_1, house_size, house_price, 200, 0.1)
 
-
-theta_0, theta_1
+print(theta_0)
+print(theta_1)
